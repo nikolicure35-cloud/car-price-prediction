@@ -40,21 +40,11 @@ Skripta za treniranje sama obavlja čišćenje i inženjering karakteristika, pr
 
 Za pregled analize otvori `notebooks/01_eda_and_modeling.ipynb` u Jupyter Lab-u ili Notebook-u. Za poređenje pokreni `python src/model_comparison.py` (isto treniranje, pet modela). Rezultati se upisuju u `reports/model_comparison.csv`, `reports/sample_predictions.csv` i `reports/training_summary.json`.
 
-## Objavljivanje na GitHub-u
+## Javni GitHub repozitorijum
 
-1. Napravi prazan repozitorijum na GitHub-u i izaberi **Public**. Nemoj inicijalizovati dodatni README ili licencu.
-2. Raspakuj projekat i otvori terminal u direktorijumu `car-price-prediction`:
+Projekat je objavljen javno: https://github.com/nikolicure35-cloud/car-price-prediction
 
-```bash
-git init
-git add .
-git commit -m "Add used car price prediction project"
-git branch -M main
-git remote add origin https://github.com/nikolicure35-cloud/car-price-prediction.git
-git push -u origin main
-```
-
-Nakon objave proveri da stranica repozitorijuma prikazuje **Public**, pa pošalji njegov URL instruktoru.
+Za kopiju projekta pokreni `git clone https://github.com/nikolicure35-cloud/car-price-prediction.git`.
 
 ## Predikcija za novi automobil
 

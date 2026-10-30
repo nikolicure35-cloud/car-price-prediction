@@ -1,0 +1,13 @@
+{
+  "rows": 56244,
+  "train_rows": 44995,
+  "test_rows": 11249,
+  "best_model": "Extra Trees",
+  "best_metrics": {
+    "model": "Extra Trees",
+    "MAE": 1114.89134706749,
+    "MSE": 7435685.355726333,
+    "RMSE": 2726.845312027496,
+    "R2": 0.8865942226666286
+  }
+}
